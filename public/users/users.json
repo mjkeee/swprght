@@ -1,0 +1,19 @@
+[
+        {
+            "name": "Dmitriy",
+        "age": 32,
+        "friends": 13,
+        "music": 25,
+        "image":"img/search/dima.JPG"},
+        {"name": "Kirill",
+         "age": 31,
+        "friends": 12,
+        "music": 55,
+        "image":"img/search/kirill.JPG"},
+        {"name": "Bertrand",
+        "age": 48,
+        "friends": 1,
+        "music": 15,
+        "image":"img/search/Bertrand.JPG"}
+   
+]
