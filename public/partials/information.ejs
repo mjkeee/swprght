@@ -1,0 +1,279 @@
+<div class="allin">
+<div class="wraper">
+<span id="text1"><p>500+ Diseases and Conditions. All the information you need is now available at a distance of a mouse click</p></span>
+<div class="alpha-list">
+<div ng-controller="TabsCtrl">
+<div class="alpha_letters">
+	<ul class="rovno">
+	<li  id ="alph" ng-repeat="tab in tabs"
+	ng-class="{ activee: isActiveTab(tab.url)}"
+    ng-click="onClickTab(tab)">{{tab.title}}
+	</li>
+	</ul>
+	</div>
+            <div ng-include="currentTab"></div>
+  
+<script type="text/ng-template" id="one.tpl.html">
+<div class="alpha-list-body">
+   <ul>
+			<div id="letters">A</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+<script type="text/ng-template" id="two.tpl.html">
+	<div class="alpha-list-body">
+   <ul>
+			<div id="letters">B</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>	
+		</script>
+<script type="text/ng-template" id="three.tpl.html">
+	<div class="alpha-list-body">
+   <ul>
+			<div id="letters">C</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="four.tpl.html">
+<div class="alpha-list-body">
+   <ul>
+			<div id="letters">D</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Lorem ipsum non likiurn</a></li>
+		</ul>
+		</div>	</script>
+	<script type="text/ng-template" id="five.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">E</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="six.tpl.html">
+	<div class="alpha-list-body">
+   <ul>
+			<div id="letters">F</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="seven.tpl.html">
+			<div class="alpha-list-body">
+   <ul>
+			<div id="letters">G</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="eight.tpl.html">	
+	<div class="alpha-list-body">
+   <ul>
+			<div id="letters">H</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="nine.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">I</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="ten.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">J</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="eleven.tpl.html">
+			<div class="alpha-list-body">
+   <ul>
+			<div id="letters">K</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="twelve.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">L</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+<script type="text/ng-template" id="thirteen.tpl.html">
+<div class="alpha-list-body">
+   <ul>
+			<div id="letters">M</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+<script type="text/ng-template" id="fourteen.tpl.html">
+	<div class="alpha-list-body">
+   <ul>
+			<div id="letters">N</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>	
+		</script>
+		<script type="text/ng-template" id="fivteen.tpl.html">
+			<div class="alpha-list-body">
+   <ul>
+			<div id="letters">O</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+<script type="text/ng-template" id="sixteen.tpl.html">
+	<div class="alpha-list-body">
+   <ul>
+			<div id="letters">P</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="seventeen.tpl.html">
+			<div class="alpha-list-body">
+   <ul>
+			<div id="letters">Q</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="eighteen.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">R</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="nineteen.tpl.html">
+			<div class="alpha-list-body">
+   <ul>
+			<div id="letters">S</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="twenty.tpl.html">
+			<div class="alpha-list-body">
+			<div class="header_alph">
+   <ul>
+			<div id="letters">T</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="twentyone.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">U</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="twentytwo.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">V</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="twentythree.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">W</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="twentyfour.tpl.html">
+		<div class="alpha-list-body">
+   <ul>
+			<div id="letters">X</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	<script type="text/ng-template" id="twentyfive.tpl.html">
+			<div class="alpha-list-body">
+   <ul>
+			<div id="letters">Y</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+		<script type="text/ng-template" id="twentysix.tpl.html">
+			<div class="alpha-list-body">
+   <ul>
+			<div id="letters">Z</div>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		<li><a href="http://www.brainfacts.org/diseases-disorders/diseases-a-to-z-from-ninds/absence-of-the-septum-pellucidum/">Absence of the Septum Pellucidum</a></li>
+		</ul>
+		</div>
+	</script>
+	</div>
+	</div>
+	</div>
+</html>

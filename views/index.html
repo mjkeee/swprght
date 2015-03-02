@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="iSalveo" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.png">
+
+    <title>I,Salveo-HealthCare Portal</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/animations.css"/>
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fb-main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css">
+    <script src="js/jquery.min.js"></script>    
+<!-- AngularJs source files, right order-->
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/angular-messages.min.js"></script>
+<script src="js/angular-aria.min.js"></script>
+<script src="js/appAngular.js"></script> 
+
+    
+    
+    
+	<script src="js/modernizr.custom.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-offset="0" data-target="#gn-menu">
+  	<!-- ========== MAIN MENU ========== -->
+	<div class="container" >
+		<ul id="gn-menu" class="gn-menu-main">
+			<li class="gn-trigger">
+				<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+				<nav class="gn-menu-wrapper">
+					<div class="gn-scroller">
+						<ul class="gn-menu">
+							
+							<li><a href="#forum" class="gn-icon gn-icon-home smoothScroll">Forum</a></li>
+							<li><a href="#devices" class="gn-icon gn-icon-camera smoothScroll">Devices</a></li>
+							<li><a href="#ihealth" class="gn-icon gn-icon-archive smoothScroll">iHealth</a></li>
+							<li><a href="#information" class="gn-icon gn-icon-pictures smoothScroll">Information</a></li>
+							<li><a href="#contact" class="gn-icon gn-icon-article smoothScroll">Contact</a></li>
+							<li><a href="#about" class="gn-icon gn-icon-envelop smoothScroll">About Us</a></li>
+						</ul>
+					</div><!-- /gn-scroller -->
+				</nav>
+				<div class="logos">
+	  <a href="/"><img class="logo-salveo" src="img/logo-salveo.png"/> </a>
+	  </div>
+			<li><a id ="button1" href="#signup" class="smoothScroll">Sign Up </a> 
+			<a id ="button2" href="#signin" class="smoothScroll">/ Sign In</a></li>
+		</ul>f
+	</div><!-- /container -->
+	<div id ="active_content">
+	<div ng-view></div>
+		 </div>
+	
+		
+	
+	<!-- ========== HEADER SECTION ========== -->
+	
+	
+	<section id="contact" name="contact"></section>
+	<div id="footerwrap">
+		<div class="containerft">
+				<p>
+				Powered by <span><a id ="gilt" span id ="gilt" href="http://giltcircle.com">Giltcircle wd</a></span> </br> Made in Palo Alto
+				</p>
+		
+		</div>
+	
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/retina.js"></script>
+	<script src="js/classie.js"></script>
+    <script type="javascript" src="js/smoothscroll.js"></script> 
+	<script src="js/gnmenu.js"></script>
+	<script>
+		new gnMenu( document.getElementById( 'gn-menu' ) );
+	</script>  
+	<script>
+		$('.carousel').carousel({
+		  interval: 1000
+		  })
+	</script>
+	
+	
+  </body>
+</html>
