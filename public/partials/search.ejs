@@ -1,9 +1,10 @@
 <div id = "wrap">
+            <div class ="square_container">
             <div id ="square3"></div>
             <div id ="square2"></div>
             <div id ="square1">
                 <div class="pic1">
-                    <img class="ani" ng-repeat="user in users" ng-hide="!isCurrentUserIndex($index)" ng-src="{{user.image}}" width="500" height="500" >
+                    <img class="ani" ng-repeat="user in users" ng-hide="!isCurrentUserIndex($index)" ng-src="{{user.image}}" width="399" height="404" >
                     </div>
                 <div class="footer_search">
                     <div class="logos_search" ng-repeat="user in users" ng-hide="!isCurrentUserIndex($index)">
@@ -14,21 +15,30 @@
                         </span>
                         <span id="music">{{user.music}}
                         <img src="img/search/friends.png">
-                        </span>       
+                        </span>  
+                    </div>                               
                     </div>
-                    <div class="butttons">
-                        <div class="circle1 button1" ng-click="nextUser()">
-                            <img src="img/search/krestik.png" width="43px" height="43px">
-                        </div>
-                        <div class="circle2 button1" ng-click="nextUser()">
-                            <img src="img/search/heartik.png">
-                        </div>
-                        <div class="circlesm button1">
-                            <img src="img/search/info.png" >
-                        </div>
+                    </div>
+                    </div>
 
-                    </div> 
-                </div>
-      
-            </div>
+
+
+                    <div class="butttons">
+                    <div id="circle12">
+                        <div class=" circle1 button1" ng-click="nextUser()">
+                            <img id ="k" src="img/search/krestik.png" width="25px" height="25px">
+                        </div>
+                        </div>
+                          <div id="circle33">
+                        <div class="circlesm button1">
+                            <img id ='i' src="img/search/info.png" width="4" >
+                        </div>
+                        </div>
+                        <div id="circle22">
+                        <div class="circle2 button1" ng-click="nextUser()">
+                            <img id="h" src="img/search/heartik.png" width="37">
+                        </div>
+                        </div>
+                      
+                    
     </div> 
